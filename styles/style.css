@@ -1,0 +1,162 @@
+/* import Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #490d3a;
+}
+
+.c_header{ 
+    padding: 2rem 5rem;
+}
+
+.c_header__logo h1 {
+    letter-spacing: 4px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.c_header__nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.c_header__nav ul li{
+    padding: 0.5rem 1rem;
+}
+
+.c_header__nav ul li a{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px;
+}
+.mob_version_contact{
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .c_header{
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .c_container div:first-child img {
+        width: 400px;
+    }
+    .c_container div:first-child{
+        background-position: center !important;
+    }
+
+    .c_products1 {
+        padding: 10px !important;
+    }
+
+    .c_products1 div{
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 10px 0px !important;
+    }
+
+    .c_products1 div * {
+        margin: 0rem 1rem;
+    }
+
+    .c_products1 div div:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c_products1 div div:last-child p {
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .c_products1 div img {
+        width: 300px !important;
+        height: auto !important;
+    }
+
+    .c_product2{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .c_product2 img {
+        height: 300px !important; 
+    }
+
+    .c_product2 div {
+        padding: 0px !important;
+    }
+
+    .c_product2 div h3 {
+        font-size: 18px !important;
+    }
+
+    .c_product2 div small {
+        font-size: 14px !important;
+        letter-spacing: auto !important;
+    }
+
+    .c_product2 {
+        display: none !important;
+    }
+    
+    .c_contact {
+        flex-direction: column !important;
+    }
+    
+    footer div:last-child {
+        margin-top: 1rem;
+    }
+
+    .mob_version_contact{
+        display: block !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .mob_version_contact ul {
+        padding: 0px !important ;
+    }
+
+    .mob_version_contact div a img{
+        width: 250px !important;
+    }
+
+    .c_web_version {
+        display: none !important;
+    }
+
+    .c_sandwiches {
+        background-position: center !important;
+        width: 100% !important;
+    }
+
+    .c_sandwiches img {
+        width: 350px;
+    }
+
+}
